@@ -1,0 +1,130 @@
+# Standard skills for Endless Horizons
+#
+
+- name: Acrobatics
+  uses: [Dexterity, Constitution]
+
+- name: Acting
+  uses: [Charisma, Intelligence]
+
+- name: Climbing
+  uses: [Strength, Constitution]
+
+- name: Dodging
+  uses: [Dexterity, Perception]
+
+- name: Driving
+  uses: [Perception, Dexterity]
+
+- name: Escape Artist
+  uses: [Strength, Dexterity]
+
+- name: First Aid
+  uses: [Intelligence, Perception]
+
+- name: Heavy Weapons
+  uses: [Dexterity, Perception]
+
+- name: Intimidate
+  uses: [Strength, Charisma]
+
+- name: Intrusion
+  uses: [Dexterity, Intelligence]
+
+- name: Language
+  uses: [Perception, Intelligence]
+
+- name: Light Weapons
+  uses: [Dexterity, Perception]
+
+- name: Mechanics
+  uses: [Dexterity, Intelligence]
+
+- name: Medicine
+  special: true
+  uses: [Perception, Intelligence]
+
+- name: Medicine (Bionics)
+  aliases: ["Bionics"]
+  speciality_of: "Medicine"
+  uses: [Perception, Intelligence]
+
+- name: Medicine (Surgery)
+  aliases: ["Surgery"]
+  speciality_of: "Medicine"
+  uses: [Perception, Dexterity]
+
+- name: Medicine (Trauma Care)
+  aliases: ["Trauma Care"]
+  speciality_of: "Medicine"
+  uses: [Perception, Intelligence]
+
+- name: Micro Gravity
+  aliases: ["Zero Gravity"]
+  uses: [Dexterity, Strength]
+
+- name: Navigation
+  uses: [Intelligence, Perception]
+
+- name: Notice
+  uses: [Perception, Constitution]
+
+- name: Pilot Spacecraft
+  special: true
+  uses: [Dexterity, Perception]
+
+- name: Pilot Spacecraft (Dog Fights)
+  aliases: ["Dog Fights"]
+  speciality_of: "Pilot Spacecraft"
+  uses: [Dexterity, Perception]
+
+- name: Pilot Spacecraft (Boarding)
+  aliases: ["Boarding"]
+  speciality_if: "Pilot Spacecraft"
+  uses: [Intelligence, Perception]
+
+- name: Pilot Spacecraft (Smuggling)
+  aliases: ["Smuggling"]
+  speciality_of: "Pilot Spacecraft"
+  uses: [Charisma, Intelligence]
+
+- name: Public Affairs
+  uses: [Charisma, Intelligence]
+
+- name: Questioning
+  uses: [Charisma, Intelligence]
+
+- name: Running
+  uses: [Strength, Constitution]
+
+- name: Science
+  special: true
+  uses: [Intelligence, Intelligence]
+
+- name: Sleight of Hand
+  uses: [Dexterity, Charisma]
+
+- name: Small Arms
+  uses: [Dexterity, Perception]
+
+- name: Small Arms (Rifles)
+  speciality_of: "Small Arms"
+  aliases: ["Small Arms (Rifle)", "Rifle", "Rifles"]
+  uses: [Dexterity, Perception]
+
+- name: Small Arms (Handguns)
+  speciality_of: "Small Arms"
+  aliases: ["SSmall Arms (Handgun)", "Handguns", "Handgun"]
+  uses: [Dexterity, Perception]
+
+- name: Smooth Talking
+  uses: [Intelligence, Charisma]
+
+- name: Stealth
+  uses: [Dexterity, Intelligence]
+
+- name: Swimming
+  uses: [Strength, Constitution]
+
+- name: Throwing
+  uses: [Strength, Dexterity]
