@@ -1,0 +1,109 @@
+# Backgrounds
+
+- name: Criminal
+  cost: 30
+  abilities:
+    strength: 1
+    charisma: 1
+  skills:
+    Melee: 3
+    Intimidate: 3
+    Small Arms: 3
+
+- name: Engineer
+  cost: 25
+  abilities:
+    intelligence: 1
+  skills:
+    Engineering: 3
+    Science: 3
+
+- name: Hacker
+  cost: 30
+  abilities:
+    intelligence: 1
+  skills:
+    "Engineering (Computer)": 2
+    Intrusion: 2
+    "Science (Computer)": 2
+
+- name: Lawkeeper
+  cost: 20
+  abilities:
+    perception: 1
+  skills:
+    Driving: 2
+    First Aid: 2
+    Questioning: 2
+    Running: 2
+    Small Arms: 2
+
+- name: Medical Doctor
+  cost: 40
+  abilities:
+    dexterity: 1
+    intelligence: 1
+  skills:
+    Medicine: 3
+    Medicine (Surgery): 1
+    Science (Medicine): 2
+    Questioning: 1
+
+- name: Paramedic
+  cost: 20
+  abilities:
+    dexterity: 1
+  skills:
+    First Aid: 3
+    Science (Medicine): 1
+
+- name: Pirate
+  cost: 20
+  abilities:
+    charisma: 1
+  skills:
+    Small Arms: 3
+    Intimidate: 2
+    Smooth Talking: 2
+
+- name: Politician
+  cost: 15
+  abilities:
+    charisma: 1
+  skills:
+    Public Affairs: 3
+    Smooth Talking: 2
+    Acting: 1
+
+- name: Scientist
+  cost: 25
+  abilities:
+    intelligence: 1
+  skills:
+    Science: 4
+
+- name: Soldier
+  cost: 25
+  abilities:
+    constitution: 1
+    strength: 1
+  skills:
+    Light Weapons: 2
+    Small Arms: 3
+    Small Arms (Rifles): 3
+
+- name: Spacecraft Pilot
+  cost: 15
+  abilities:
+    dexterity: 1
+  skills:
+    Pilot Spacecraft: 1
+    Radio Operation: 2
+
+- name: Trader
+  cost: 15
+  abilities:
+    charisma: 1
+  skills:
+    Public Affairs: 2
+    Smooth Talking: 3
