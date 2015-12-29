@@ -16,6 +16,14 @@
 - name: Driving
   uses: [Perception, Dexterity]
 
+- name: Engineering
+  special: true
+  uses: [Intelligence, Intelligence]
+
+- name: Engineering (Computer)
+  special: true
+  uses: [Intelligence, Intelligence]
+
 - name: Escape Artist
   uses: [Strength, Dexterity]
 
@@ -59,6 +67,10 @@
   speciality_of: "Medicine"
   uses: [Perception, Intelligence]
 
+- name: Melee Combat
+  aliases: ["Melee"]
+  uses: [Strength, Dexterity]
+
 - name: Micro Gravity
   aliases: ["Zero Gravity"]
   uses: [Dexterity, Strength]
@@ -94,10 +106,21 @@
 - name: Questioning
   uses: [Charisma, Intelligence]
 
+- name: Radio Operation
+  uses: [Charisma, Intelligence]
+
 - name: Running
   uses: [Strength, Constitution]
 
 - name: Science
+  special: true
+  uses: [Intelligence, Intelligence]
+
+- name: Science (Medicine)
+  special: true
+  uses: [Intelligence, Intelligence]
+
+- name: Science (Computer)
   special: true
   uses: [Intelligence, Intelligence]
 
