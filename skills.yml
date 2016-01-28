@@ -140,6 +140,9 @@
   aliases: ["SSmall Arms (Handgun)", "Handguns", "Handgun"]
   uses: [Dexterity, Perception]
 
+- name: Small Unit Tactics
+  uses: [Intelligence, Perception]
+
 - name: Smooth Talking
   uses: [Intelligence, Charisma]
 

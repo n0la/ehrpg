@@ -83,7 +83,7 @@
     Science: 4
 
 - name: Soldier
-  cost: 25
+  cost: 30
   abilities:
     constitution: 1
     strength: 1
@@ -91,6 +91,8 @@
     Light Weapons: 2
     Small Arms: 3
     Small Arms (Rifles): 3
+    Small Unit Tactics: 1
+    Throwing: 2
 
 - name: Spacecraft Pilot
   cost: 15
