@@ -34,6 +34,8 @@
   uses: [Dexterity, Perception]
 
 - name: Intimidate
+  aliases: ["Oratory (Intimidate)"]
+  speciality_of: "Oratory"
   uses: [Strength, Charisma]
 
 - name: Intrusion
@@ -80,6 +82,9 @@
 
 - name: Notice
   uses: [Perception, Constitution]
+
+- name: Oratory
+  uses: [Intelligence, Charisma]
 
 - name: Pilot Spacecraft
   special: true
@@ -144,6 +149,8 @@
   uses: [Intelligence, Perception]
 
 - name: Smooth Talking
+  aliases: ["Oratory (Smooth Talking)"]
+  speciality_of: "Oratory"
   uses: [Intelligence, Charisma]
 
 - name: Stealth

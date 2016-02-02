@@ -63,8 +63,8 @@
     charisma: 1
   skills:
     Small Arms: 3
-    Intimidate: 2
-    Smooth Talking: 2
+    Oratory: 3
+    Smooth Talking: 1
 
 - name: Politician
   cost: 15
