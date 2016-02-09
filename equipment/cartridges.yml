@@ -294,6 +294,28 @@
   weight: 0.013
   stopped_by: 3
 
+- name: ammo_9x39
+  aliases: ["9x39"]
+  damage:
+    - dice: 2d10
+      type: piercing
+    - dice: 2d10
+      type: bludgeoning
+  cost: 3.6
+  weight: 0.02
+  stopped_by: 3
+
+- name: ammo_9x39_ap
+  aliases: ["9x39 AP"]
+  damage:
+    - dice: 2d10
+      type: piercing
+    - dice: 2d10
+      type: bludgeoning
+  cost: 5.0
+  weight: 0.02
+  stopped_by: 3
+
 - name: ammo_762x51
   aliases: ["7.62x51"]
   damage:
