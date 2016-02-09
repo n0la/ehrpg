@@ -202,6 +202,17 @@
   weight: 0.008
   stopped_by: 2
 
+- name: ammo_44magnum
+  aliases: [".44", ".44 Magnum"]
+  damage:
+    - dice: 2d4
+      type: piercing
+    - dice: 2d4
+      type: bludgeoning
+  cost: 0.6
+  weight: 0.016
+  stopped_by: 2
+
 #
 # RIFLES
 #

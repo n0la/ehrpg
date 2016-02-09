@@ -206,6 +206,17 @@
   cost: 250
   weight: 0.8
 
+- name: Desert Eagle
+  ammunition:
+    - ammo_44magnum
+  range: 70
+  modes: [1]
+  magazine:
+    - capacity: 8
+  recoil: 5
+  cost: 350
+  weight: 1.9
+
 #
 # Shotguns
 #
