@@ -400,3 +400,344 @@
   recoil: 3
   cost: 750
   weight: 1.6
+
+#
+# Rifles
+#
+
+- name: SA Vz. 58
+  ammunition:
+    - ammo_762x39
+    - ammo_762x39_ap
+    - ammo_762x39_hp
+  range: 500
+  modes: [1, A]
+  magazine:
+    - capacity: 30
+  recoil: 6
+  cost: 500
+  weight: 2.9
+
+- name: AKM
+  ammunition:
+    - ammo_762x39
+    - ammo_762x39_ap
+    - ammo_762x39_hp
+  range: 350
+  modes: [1, A]
+  magazine: 30
+  recoil: 7
+  cost: 300
+  weight: 3.1
+
+- name: M16
+  ammunition:
+    - ammo_556x45
+    - ammo_556x45_ap
+    - ammo_556x45_hp
+  range: 550m
+  modes: [1, 3]
+  magazine:
+    - capacity: 30
+  recoil: 5
+  cost: 450
+  weight: 3.2
+
+- name: Steyr AUG A3
+  ammunition:
+    - ammo_556x45
+    - ammo_556x45_ap
+    - ammo_556x45_hp
+  range: 500
+  modes: [1, A]
+  magazine: 30
+  recoil: 6
+  cost: 300
+  weight: 3.6
+
+- name: CZ-805 BREN
+  ammunition:
+    - ammo_556x45
+    - ammo_556x45_ap
+    - ammo_556x45_hp
+  range: 500
+  modes: [1, A]
+  magazine:
+    - capacity: 30
+  recoil: 5
+  cost: 400
+  weight: 3.6kg
+
+- name: "H&K G36"
+  ammunition:
+    - ammo_556x45
+    - ammo_556x45_ap
+    - ammo_556x45_hp
+  range: 600
+  modes: [1, A]
+  magazine:
+    - capacity: 30
+  recoil: 5
+  cost: 450
+  weight: 3.6
+
+- name: M4A1
+  ammunition:
+    - ammo_556x45
+    - ammo_556x45_ap
+    - ammo_556x45_hp
+  range: 450
+  modes: [1, A]
+  magazine: 30
+  recoil: 5
+  cost: 500
+  weight: 2.8
+
+- name: "H&K 416"
+  ammunition:
+    - ammo_556x45
+    - ammo_556x45_ap
+    - ammo_556x45_hp
+  range: 500
+  modes: [1, A]
+  magazine:
+    - capacity: 30
+  recoil: 5
+  cost: 550
+  weight: 3.5
+
+- name: AK-12
+  ammunition:
+    - ammo_545x39
+    - ammo_545x39_ap
+    - ammo_545x39_hp
+  range: 600
+  modes: [1, 2, A]
+  magazine:
+    - capacity: 30
+  recoil: 5
+  cost: 660
+  weight: 3.3
+
+- name: AK-74M
+  ammunition:
+    - ammo_545x39
+    - ammo_545x39_ap
+    - ammo_545x39_hp
+  range: 500
+  modes: [1, A]
+  magazine:
+    - capacity: 30
+  recoil: 5
+  cost: 550
+  weight: 3.4
+
+- name: AKS-74U
+  ammunition:
+    - ammo_545x39
+    - ammo_545x39_ap
+    - ammo_545x39_hp
+  range: 350
+  modes: [1, A]
+  magazine:
+    - capacity: 30
+  recoil: 5
+  cost: 450
+  weight: 2.7
+
+- name: AN-94
+  ammunition:
+    - ammo_545x39
+    - ammo_545x39_ap
+    - ammo_545x39_hp
+  range: 600
+  modes: [1, 2, A]
+  magazine: 30
+  recoil: 5
+  burst_recoil: 1
+  cost: 900
+  weight: 3.8
+
+- name: OTs-14
+  ammunition:
+    - ammo_9x39
+    - ammo_9x39_ap
+  range: 300
+  modes: [1, A]
+  magazine:
+    - capacity: 20
+  recoil: 4
+  cost: 800
+  weight: 2.7
+
+- name: AS Val
+  ammunition:
+    - ammo_9x39
+    - ammo_9x39_ap
+  range: 300
+  modes: [1, A]
+  magazine:
+    - capacity: 20
+  recoil: 4
+  cost: 900
+  weight: 2.5
+
+- name: SR-3
+  ammunition:
+    - ammo_9x39
+    - ammo_9x39_ap
+  range: 200
+  modes: [1, A]
+  magazine:
+    - capacity: 20
+  recoil: 4
+  cost: 700
+  weight: 2.0
+
+- name: "H&K 417"
+  ammunition:
+    - ammo_762x51
+    - ammo_762x51_ap
+    - ammo_762x51_hp
+  range: 700
+  modes: [1, A]
+  magazine:
+    - capacity: 20
+  recoil: 7
+  cost: 700
+  weight: 3.8
+
+- name: Mk 14 EBR
+  ammunition:
+    - ammo_762x51
+    - ammo_762x51_ap
+    - ammo_762x51_hp
+  range: 800
+  modes: [1, A]
+  magazine:
+    - capacity: 20
+  recoil: 7
+  cost: 750
+  weight: 5.1
+
+- name: Galil ACE 53
+  ammunition:
+    - ammo_762x51
+    - ammo_762x51_ap
+    - ammo_762x51_hp
+  range: 600
+  modes: [1, A]
+  magazine:
+    - capacity: 20
+  recoil: 7
+  cost: 650
+  weight: 3.8
+
+- name: FN SCAR-H
+  ammunition:
+    - ammo_762x51
+    - ammo_762x51_ap
+    - ammo_762x51_hp
+  range: 800
+  modes: [1, A]
+  magazine:
+    - capacity: 20
+  recoil: 7
+  cost: 700
+  weight: 3.5
+
+- name: M40A5
+  ammunition:
+    - ammo_762x51
+    - ammo_762x51_ap
+    - ammo_762x51_hp
+  range: 800
+  modes: [1]
+  magazine:
+    - capacity: 10
+  recoil: 8
+  cost: 600
+  weight: 6.5
+
+- name: SVD
+  ammunition:
+    - ammo_762x54
+    - ammo_762x54_ap
+    - ammo_762x54_hp
+  range: 800
+  modes: [1]
+  magazine:
+    - capacity: 20
+  recoil: 8
+  cost: 500
+  weight: 4.3
+
+- name: SVU
+  ammunition:
+    - ammo_762x54
+    - ammo_762x54_ap
+    - ammo_762x54_hp
+  range: 1000
+  modes: [1]
+  magazine:
+    - capacity: 20
+  recoil: 8
+  cost: 700
+  weight: 3.6
+
+- name: Barret M82
+  ammunition:
+    - ammo_50bmg
+    - ammo_50bmg_ap
+    - ammo_50bmg_hp
+    - ammo_50bmg_heiap
+  range: 1800
+  modes: [1]
+  magazine:
+    - capacity: 10
+  recoil: 12
+  cost: 1100
+  weight: 14.0
+
+- name: Steyr HS .50
+  ammunition:
+    - ammo_50bmg
+    - ammo_50bmg_ap
+    - ammo_50bmg_hp
+    - ammo_50bmg_heiap
+  range: 1800
+  modes: [1]
+  magazine:
+    - capacity: 1
+      internal: true
+  recoil: 11
+  cost: 900
+  weight: 12.4
+
+- name: OSV-96
+  ammunition:
+    - ammo_127x108
+    - ammo_127x108_ap
+    - ammo_127x108_hp
+    - ammo_127x108_heiap
+  range: 2000
+  modes: [1]
+  magazine:
+    - capacity: 5
+  recoil: 12
+  cost: 1300
+  weight: 12.9
+
+- name: KSVK
+  ammunition:
+    - ammo_127x108
+    - ammo_127x108_ap
+    - ammo_127x108_hp
+    - ammo_127x108_heiap
+  range: 1500
+  modes: [1]
+  magazine:
+    - capacity: 5
+  recoil: 12
+  cost: 1200
+  weight: 12.5
