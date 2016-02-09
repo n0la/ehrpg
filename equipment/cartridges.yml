@@ -1,0 +1,490 @@
+#
+# Pistols
+#
+
+- name: ammo_9x18
+  aliases: ["9x18", "9x18 Makarov"]
+  damage:
+    - dice: 1d4
+      type: piercing
+    - dice: 1d4
+      type: bludgeoning
+  cost: 0.2
+  weight: 0.01
+  stopped_by: 2
+
+- name: ammo_9x18_ap
+  aliases: ["9x18 AP", "9x18 Makarov AP"]
+  damage:
+    - dice: 1d4
+      type: piercing
+    - dice: 1d4
+      type: bludgeoning
+  cost: 0.3
+  weight: 0.012
+  stopped_by: 3
+
+- name: ammo_9x18_hp
+  aliases: ["9x18 HP", "9x18 Makarov HP"]
+  damage:
+    - dice: 1d6
+      type: piercing
+    - dice: 1d6
+      type: bludgeoning
+  cost: 0.26
+  weight: 0.01
+  stopped_by: I
+
+- name: ammo_9x19
+  aliases: ["9x19", "9x19 Parabellum"]
+  damage:
+    - dice: 1d6
+      type: piercing
+    - dice: 1d6
+      type: bludgeoning
+  cost: 0.3
+  weight: 0.012
+  stopped_by: 2
+
+- name: ammo_9x19_ap
+  aliases: ["9x19 AP", "9x19 Parabellum AP"]
+  damage:
+    - dice: 1d6
+      type: piercing
+    - dice: 1d8
+      type: bludgeoning
+  cost: 0.4
+  weight: 0.014
+  stopped_by: 3
+
+- name: ammo_9x19_hp
+  aliases: ["9x19 HP", "9x19 Parabellum HP"]
+  damage:
+    - dice: 1d8
+      type: piercing
+    - dice: 1d8
+      type: bludgeoning
+  cost: 0.4
+  weight: 0.012
+  stopped_by: 2
+
+- name: ammo_45acp
+  aliases: [".45 ACP", ".45 Auto"]
+  damage:
+    - dice: 1d8
+      type: piercing
+    - dice: 1d8
+      type: bludgeoning
+  cost: 0.46
+  weight: 0.02
+  stopped_by: 2
+  subsonic: true
+
+- name: ammo_45acp_ap
+  aliases: [".45 ACP AP", ".45 Auto AP"]
+  damage:
+    - dice: 1d8
+      type: piercing
+    - dice: 1d8
+      type: bludgeoning
+  cost: 0.5
+  weight: 0.022
+  stopped_by: 3
+
+- name: ammo_45acp_hp
+  aliases: [".45 ACP HP", ".45 Auto HP"]
+  damage:
+    - dice: 2d4
+      type: piercing
+    - dice: 2d4
+      type: bludgeoning
+  cost: 0.5
+  weight: 0.02
+  stopped_by: 2
+  subsonic: true
+
+- name: ammo_46x30
+  aliases: ["4.6x30", "HK 4.6x30"]
+  damage:
+    - dice: 2d4
+      type: piercing
+    - dice: 2d4
+      type: bludgeoning
+  cost: 0.8
+  weight: 0.008
+  stopped_by: 3
+
+- name: ammo_46x30_ap
+  aliases: ["4.6x30 AP", "HK 4.6x30 AP"]
+  damage:
+    - dice: 2d4
+      type: piercing
+    - dice: 2d4
+      type: bludgeoning
+  cost: 1.2
+  weight: 0.01
+  stopped_by: 4
+
+- name: ammo_46x30_hp
+  aliases: ["4.6x30 HP", "HK 4.6x30 HP"]
+  damage:
+    - dice: 2d6
+      type: piercing
+    - dice: 2d6
+      type: bludgeoning
+  cost: 1
+  weight: 0.008
+  stopped_by: 2
+
+- name: ammo_57x28
+  aliases: ["5.7x28", "FN 5.7x28"]
+  damage:
+    - dice: 2d4
+      type: piercing
+    - dice: 2d4
+      type: bludgeoning
+  cost: 0.8
+  weight: 0.008
+  stopped_by: 3
+
+- name: ammo_57x28_ap
+  aliases: ["5.7x28 AP", "FN 5.7x28 AP"]
+  damage:
+    - dice: 2d4
+      type: piercing
+    - dice: 2d4
+      type: bludgeoning
+  cost: 1.2
+  weight: 0.01
+  stopped_by: 4
+
+- name: ammo_57x28_hp
+  aliases: ["5.7x28 HP", "FN 5.7x28 HP"]
+  damage:
+    - dice: 2d6
+      type: piercing
+    - dice: 2d6
+      type: bludgeoning
+  cost: 1
+  weight: 0.008
+  stopped_by: 2
+
+- name: ammo_9x21
+  aliases: ["9x21"]
+  damage:
+    - dice: 2d4
+      type: piercing
+    - dice: 2d4
+      type: bludgeoning
+  cost: 0.8
+  weight: 0.008
+  stopped_by: 3
+
+- name: ammo_9x21_ap
+  aliases: ["9x21 AP"]
+  damage:
+    - dice: 2d4
+      type: piercing
+    - dice: 2d4
+      type: bludgeoning
+  cost: 1.2
+  weight: 0.01
+  stopped_by: 4
+
+- name: ammo_9x21_hp
+  aliases: ["9x21 HP"]
+  damage:
+    - dice: 2d6
+      type: piercing
+    - dice: 2d6
+      type: bludgeoning
+  cost: 1
+  weight: 0.008
+  stopped_by: 2
+
+#
+# RIFLES
+#
+
+- name: ammo_762x39
+  aliases: ["7.62x39"]
+  damage:
+    - dice: 2d10
+      type: piercing
+    - dice: 2d10
+      type: bludgeoning
+  cost: 2.3
+  weight: 0.16
+  stopped_by: 4
+
+- name: ammo_762x39_ap
+  aliases: ["7.62x39 AP"]
+  damage:
+    - dice: 2d10
+      type: piercing
+    - dice: 2d10
+      type: bludgeoning
+  cost: 4
+  weight: 0.02
+  stopped_by: 5
+
+- name: ammo_556x45
+  aliases: ["5.56x45"]
+  damage:
+    - dice: 2d8
+      type: piercing
+    - dice: 2d8
+      type: bludgeoning
+  cost: 2.6
+  weight: 0.013
+  stopped_by: 3
+
+- name: ammo_556x45_ap
+  aliases: ["5.56x45 AP"]
+  damage:
+    - dice: 2d8
+      type: piercing
+    - dice: 2d8
+      type: bludgeoning
+  cost: 3.3
+  weight: 0.016
+  stopped_by: 4
+
+- name: ammo_556x45_hp
+  aliases: ["5.56x45 HP"]
+  damage:
+    - dice: 2d10
+      type: piercing
+    - dice: 2d10
+      type: bludgeoning
+  cost: 4
+  weight: 0.013
+  stopped_by: 3
+
+- name: ammo_545x39
+  aliases: ["5.45x39"]
+  damage:
+    - dice: 2d8
+      type: piercing
+    - dice: 2d8
+      type: bludgeoning
+  cost: 2.3
+  weight: 0.013
+  stopped_by: 3
+
+- name: ammo_545x39_ap
+  aliases: ["5.45x39 AP"]
+  damage:
+    - dice: 2d8
+      type: piercing
+    - dice: 2d8
+      type: bludgeoning
+  cost: 3
+  weight: 0.016
+  stopped_by: 4
+
+- name: ammo_545x39_hp
+  aliases: ["5.45x39 HP"]
+  damage:
+    - dice: 2d10
+      type: piercing
+    - dice: 2d10
+      type: bludgeoning
+  cost: 3.6
+  weight: 0.013
+  stopped_by: 3
+
+- name: ammo_762x51
+  aliases: ["7.62x51"]
+  damage:
+    - dice: 2d10
+      type: piercing
+    - dice: 2d10
+      type: bludgeoning
+  cost: 5
+  weight: 0.025
+  stopped_by: 4
+
+- name: ammo_762x51_ap
+  aliases: ["7.62x51 AP"]
+  damage:
+    - dice: 2d10
+      type: piercing
+    - dice: 2d10
+      type: bludgeoning
+  cost: 6.5
+  weight: 0.03
+  stopped_by: 5
+
+- name: ammo_762x51_hp
+  aliases: ["7.62x51 HP"]
+  damage:
+    - dice: 3d6
+      type: piercing
+    - dice: 3d6
+      type: bludgeoning
+  cost: 7.5
+  weight: 0.025
+  stopped_by: 4
+
+- name: ammo_762x54
+  aliases: ["7.62x54"]
+  damage:
+    - dice: 2d10
+      type: piercing
+    - dice: 2d10
+      type: bludgeoning
+  cost: 5
+  weight: 0.025
+  stopped_by: 4
+
+- name: ammo_762x54_ap
+  aliases: ["7.62x54 AP"]
+  damage:
+    - dice: 2d10
+      type: piercing
+    - dice: 2d10
+      type: bludgeoning
+  cost: 6.5
+  weight: 0.03
+  stopped_by: 5
+
+- name: ammo_762x54_hp
+  aliases: ["7.62x54 HP"]
+  damage:
+    - dice: 3d6
+      type: piercing
+    - dice: 3d6
+      type: bludgeoning
+  cost: 7.5
+  weight: 0.025
+  stopped_by: 4
+
+- name: ammo_50bmg
+  aliases: [".50 Cal", ".50 BMG"]
+  damage:
+    - dice: 3d10
+      type: piercing
+    - dice: 3d10
+      type: bludgeoning
+  cost: 20
+  weight: 0.11
+  stopped_by: 6
+
+- name: ammo_50bmg_ap
+  aliases: [".50 Cal AP", ".50 BMG AP"]
+  damage:
+    - dice: 3d10
+      type: piercing
+    - dice: 3d10
+      type: bludgeoning
+  damage: 3d10/3d10
+  cost: 25
+  weight: 0.12
+  stopped_by: 7
+
+- name: ammo_50bmg_hp
+  aliases: [".50 Cal HP", ".50 BMG HP"]
+  damage:
+    - dice: 3d12
+      type: piercing
+    - dice: 3d12
+      type: bludgeoning
+  cost: 25
+  weight: 0.11
+  stopped_by: 6
+
+- name: ammo_50bmg_heiap
+  aliases: [".50 Cal HEI/AP", ".50 BMG HEI/AP"]
+  damage:
+    - dice: 4d10
+      type: piercing
+    - dice: 4d10
+      type: bludgeoning
+  type: HEI/AP
+  cost: 35
+  weight: 0.13
+  stopped_by: 7
+
+- name: ammo_127x108
+  aliases: ["12.7x108"]
+  damage:
+    - dice: 3d10
+      type: piercing
+    - dice: 3d10
+      type: bludgeoning
+  cost: 20
+  weight: 0.11
+  stopped_by: 6
+
+- name: ammo_127x108_ap
+  aliases: ["12.7x108 AP"]
+  damage:
+    - dice: 3d10
+      type: piercing
+    - dice: 3d10
+      type: bludgeoning
+  cost: 25
+  weight: 0.12
+  stopped_by: 7
+
+- name: ammo_127x108_hp
+  aliases: ["12.7x108 HP"]
+  damage:
+    - dice: 3d12
+      type: piercing
+    - dice: 3d12
+      type: bludgeoning
+  cost: 25
+  weight: 0.11
+  stopped_by: 6
+
+- name: ammo_127x108_heiap
+  aliases: ["12.7x108 HEI/AP"]
+  damage:
+    - dice: 4d10
+      type: piercing
+    - dice: 4d10
+      type: bludgeoning
+  cost: 35
+  weight: 0.13
+  stopped_by: 7
+
+#
+# Shotguns.
+#
+
+- name: ammo_12g_buck
+  aliases: ["12G", "12G Buckshot"]
+  damage:
+    - dice: 4d4
+      type: piercing
+    - dice: 1d4
+      type: bludgeoning
+  cost: 1.66
+  weight: 0.041
+  stopped_by: 2
+
+- name: ammo_12g_slug
+  aliases: ["12G Slug"]
+  damage:
+    - dice: 3d4
+      type: piercing
+    - dice: 2d4
+      type: bludgeoning
+  cost: 2.08
+  weight: 0.05
+  stopped_by: 3
+
+- name: ammo_12g_dart
+  aliases: ["12G Dart"]
+  damage:
+    - dice: 3d4
+      type: piercing
+    - dice: 3d4
+      type: bludgeoning
+  cost: 2.5
+  weight: 0.06
+  stopped_by: 3
+
+#EOF
