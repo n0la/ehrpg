@@ -1,0 +1,54 @@
+# Misc. Equipment
+#
+
+- name: Credit
+  cost: 1
+  weight: 0
+
+- name: MRE
+  cost: 20
+  weight: 0.2
+
+- name: Drinking Bottle
+  cost: 15
+  weight: 0.1
+
+- name: Flare-Gun
+  cost: 250
+  weight: 0.4
+
+- name: Smoke-Flare
+  cost: 60
+  weight: 0.2
+
+- name: Road-Flare
+  cost: 40
+  weight: 0.2
+
+- name: Tent
+  cost: 400
+  weight: 2.0
+
+- name: PDA
+  cost: 1200
+  weight: 1.2
+
+- name: Flash Light
+  cost: 100
+  weight: 0.2
+
+- name: Battery Pack
+  cost: 20
+  weight: 0.1
+
+- name: PPC
+  cost: 80
+  weight: 0.4
+
+- name: PPC-M
+  cost: 300
+  weight: 0.6
+
+- name: Oxygen Bottle
+  cost: 200
+  weight: 1.5
