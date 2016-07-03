@@ -1,0 +1,104 @@
+# Suits
+#
+
+- name: SSP-99
+  slots:
+    armour:
+      front: 0
+      side: 0
+      back: 0
+    fa: 4
+  air: 10
+  power: 10
+  cost: 500
+  weight: 4.0
+  features:
+    magboots: yes
+    camera: yes
+    radio: yes
+
+- name: SSP-99M
+  slots:
+    armour:
+      front: 1
+    fa: 6
+  air: 8
+  power: 8
+  cost: 800
+  weight: 3.5
+  features:
+    magboots: yes
+    camera: yes
+    radio: yes
+    nightvision: yes
+
+- name: SEVA MK I
+  aliases: ["SEVA"]
+  slots:
+    armour:
+      front: 1
+      side: 0
+      back: 1
+    fa: 8
+  air: 8
+  power: 8
+  cost: 1000
+  weight: 8.0
+  features:
+    magboots: yes
+    camera: yes
+    radio: yes
+
+- name: SEVA MK II
+  slots:
+    armour:
+      front: 1
+      side: 0
+      back: 1
+    fa: 10
+  air: 6
+  power: 8
+  cost: 1500
+  weight: 7.5
+  features:
+    magboots: yes
+    camera: yes
+    radio: yes
+    nightvision: yes
+
+- name: SKAT-9
+  slots:
+    armour:
+      front: 1
+      side: 2
+      back: 1
+    fa: 10
+  air: 6
+  power: 8
+  cost: 3500
+  weight: 8.0
+  features:
+    magboots: yes
+    camera: yes
+    radio: yes
+    nightvision: yes
+    thermalvision: yes
+
+- name: SKAT-9M
+  slots:
+    armour:
+      front: 1
+      side: 2
+      back: 1
+    fa: 12
+  air: 6
+  power: 6
+  cost: 5000
+  weight: 9.0
+  features:
+    magboots: yes
+    camera: yes
+    radio: yes
+    nightvision: yes
+    thermalvision: yes
+    thrusters: yes
