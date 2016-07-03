@@ -39,13 +39,12 @@
     Small Arms: 2
 
 - name: Medical Doctor
-  cost: 40
+  cost: 30
   abilities:
     dexterity: 1
     intelligence: 1
   skills:
     Medicine: 3
-    Medicine (Surgery): 1
     Science (Medicine): 2
     Questioning: 1
 
@@ -83,14 +82,13 @@
     Science: 4
 
 - name: Soldier
-  cost: 30
+  cost: 25
   abilities:
     constitution: 1
     strength: 1
   skills:
     Light Weapons: 2
     Small Arms: 3
-    Small Arms (Rifles): 3
     Small Unit Tactics: 1
     Throwing: 2
 
